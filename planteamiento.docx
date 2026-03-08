@@ -5,10 +5,9 @@ Solución: Un sistema de trazabilidad que vincula un objeto (identificado por un
 
 Datos a almacenar:
 
-Objetos: ID (nombre único), descripción, estado (prestado/disponible).
+Objetos: ID (nombre único),.
 
 
-Personas: Nombre del estudiante o docente, rol, contacto.
+Personas: Nombre.
 
 
-Transacciones: Fecha de préstamo y fecha de devolución.
