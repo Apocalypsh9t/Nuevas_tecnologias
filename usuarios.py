@@ -30,10 +30,7 @@ def mostrar_reporte(inventario):
     print("=" * 30)
 
 def menu_principal():
-    """
-    Función de la Persona D: Menú interactivo con ciclo while.
-    Une el trabajo de las Personas B y C.
-    """
+
     inventario_escolar = {}  # Diccionario donde se guardará todo
     
   
@@ -58,7 +55,7 @@ def menu_principal():
             print(Fore.LIGHTYELLOW_EX+"\n abriendose del parche")
             break  
         else:
-            print("\n[!] Error: Opción no válida. Intente de nuevo.")
+            print(Fore.RED+"\n[!] Error: Opción no válida. Intente de nuevo.")
 
 
 if __name__ == "__main__":
