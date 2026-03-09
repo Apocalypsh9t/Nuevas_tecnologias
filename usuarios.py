@@ -55,7 +55,7 @@ def menu_principal():
          
             mostrar_reporte(inventario_escolar)
         elif opcion == "3":
-            print("\n abriendose del parcheÑ")
+            print(Fore.LIGHTYELLOW_EX+"\n abriendose del parche")
             break  
         else:
             print("\n[!] Error: Opción no válida. Intente de nuevo.")
