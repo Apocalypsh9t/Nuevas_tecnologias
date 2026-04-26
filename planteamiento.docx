@@ -1,0 +1,14 @@
+Problema: La falta de control en el préstamo de activos escolares (objetos), lo que genera pérdidas o desconocimiento de quién tiene la responsabilidad de un objeto en un momento dado.
+
+
+Solución: Un sistema de trazabilidad que vincula un objeto (identificado por un nombre único/ID) con una persona responsable.
+
+Datos a almacenar:
+
+Objetos: ID (nombre único), descripción, estado (prestado/disponible).
+
+
+Personas: Nombre del estudiante o docente, rol, contacto.
+
+
+Transacciones: Fecha de préstamo y fecha de devolución.
